@@ -1,0 +1,13 @@
+#   tuplas
+print('TUPLAS')
+tupla = (1, 2, 3, 4)
+print(tupla)
+lista = list(tupla)
+lista.sort()
+print('conversion a lista @lista = list(tupla) >>> ', lista)
+print('conversion lista a tupla @ tuple(lista) >>> ', tuple(lista))
+print('tupla @ (1, 2, 4) >>> ', tupla, 'size: ', len(tupla))
+tupla += (5, 6)
+print('concatenacion @ tupla + (5, 6)  >> ', tupla)
+print('@tupla.index(1)', tupla.index(2))
+print('@tupla.count(1)', tupla.count(1))

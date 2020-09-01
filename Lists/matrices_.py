@@ -5,8 +5,8 @@ matriz = [
     [7, 8, 9]
 ]
 print('matriz >> ', matriz)
-print('obtener fila >> ', matriz[1])
-print('obtener elemento >> ', matriz[1][1])
+print('obtener elementos fila @matriz[1] >> ', matriz[1])
+print('obtener elemento @matriz[1][1] >> ', matriz[1][1])
 ##
 # Obteniendo todos los elementos en la posicion 1 de cada fila de la matriz
 elements = [row[1] for row in matriz]
