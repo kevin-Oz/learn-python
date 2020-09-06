@@ -43,14 +43,3 @@ while x > 1:
 else:
     print(y, 'is prime')
 
-
-
-
-
-
-
-
-
-
-
-
